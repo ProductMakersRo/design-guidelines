@@ -85,17 +85,3 @@ Indiferent de unealtă, pasul cheie e același: **dă-i întâi DESIGN.md, apoi 
 output-ul**, și trimite la regulile cu nume ("The Two-Paint Rule", "The
 No-Colored-Text Rule").
 
----
-
-## Sistemul, într-o frază
-
-Un fanzin bine cules, făcut de makeri: tipografie neagră pe hârtie caldă, două
-culori-vopsea (albastru `#3f3fff` este identitate, portocaliu `#ff5500` este
-acțiune) și semnătura casei, etichetele înclinate tip marker. Structura vine din
-linii de 1px, nu din umbre. Trebuie să pară făcut de un om, nu generat.
-
-## Ține-le sincronizate
-
-Sursa de adevăr e aplicația site-ului, nu acest repo. Dacă se schimbă ceva,
-actualizează întâi `DESIGN.md`, apoi regenerează `design.json`, ca cele două să
-nu se depărteze unul de altul.
