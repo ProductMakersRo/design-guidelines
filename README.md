@@ -49,8 +49,7 @@ skill-ul impeccable folosește și `design.json`.
 
 1. Descarcă `DESIGN.md` (pe GitHub: "Download raw file", sau
    [link direct](https://raw.githubusercontent.com/ProductMakersRo/design-guidelines/main/DESIGN.md)).
-2. Într-o conversație nouă, atașează fișierul (agrafa) sau lipește-i conținutul
-   la început.
+2. Într-o conversație nouă, atașează fișierul (click pe iconița cu agrafa) sau dă-i drag&drop în chat de la început.
 3. Cere output-ul și punctează că trebuie să urmeze sistemul:
    > "Pe baza acestui DESIGN.md, scrie textul și structura pentru un banner de
    > eveniment. Sentence case, fără em dash, un singur CTA portocaliu, un tag
