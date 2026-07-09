@@ -1,26 +1,24 @@
-# Product Makers: ghid de design
+# Product Makers: design style
 
-Sistemul de brand și design pentru [Product Makers România](https://www.productmakers.ro),
-extras direct din site-ul comunității. Două fișiere, o singură sursă de adevăr,
-gândite ca să poți genera vizualuri care arată "a Product Makers" în orice
-unealtă cu AI.
+Două fișiere, cu care poți genera vizualuri care arată "a Product Makers" în orice AI tool.
 
 ## Cele două fișiere
 
 - **[DESIGN.md](DESIGN.md)** este briefingul pe care îl citesc și oamenii, și
   AI-ul. Culori, tipografie, umbre, componente și regulile de "așa da / așa nu",
-  în [formatul Stitch DESIGN.md](https://stitch.withgoogle.com/docs/design-md/format/):
+  în formatul [Stitch DESIGN.md](https://stitch.withgoogle.com/docs/design-md/format/):
   un bloc YAML cu token-uri (partea citită de mașină) urmat de șase secțiuni
-  fixe. Acesta e fișierul pe care îl dai mai departe.
-- **[design.json](design.json)** este perechea lui, în format pentru unelte.
+  fixe. 
+  
+- **[design.json](design.json)** e perechea lui, în format pentru tools.
   Ține ce nu încape în YAML: rampe tonale de 8 trepte pentru fiecare culoare,
   token-uri de umbre și mișcare, fragmente de cod complete pentru componente
   (buton, tag, card) și tot "narativul" (North Star, reguli, do's & don'ts).
-  Într-o aplicație, fișierul stă la `.impeccable/design.json`.
+ 
 
 Regula simplă: **DESIGN.md merge în orice unealtă cu AI; design.json e pentru
 uneltele care știu să-l citească** (panoul impeccable din Claude Code, un sistem
-de token-uri, un import automat).
+de token-uri, un import automat etc.).
 
 ---
 
