@@ -1,0 +1,651 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-09T15:46:37.332Z",
+  "title": "Design System: Product Makers",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(0.213 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(0.180 0.000 89.9)",
+          "oklch(0.300 0.000 89.9)",
+          "oklch(0.420 0.000 89.9)",
+          "oklch(0.540 0.000 89.9)",
+          "oklch(0.660 0.000 89.9)",
+          "oklch(0.780 0.000 89.9)",
+          "oklch(0.880 0.000 89.9)",
+          "oklch(0.960 0.000 89.9)"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Secondary Ink",
+        "canonical": "oklch(0.370 0.012 285.8)",
+        "tonalRamp": [
+          "oklch(0.180 0.009 285.8)",
+          "oklch(0.300 0.010 285.8)",
+          "oklch(0.420 0.011 285.8)",
+          "oklch(0.540 0.011 285.8)",
+          "oklch(0.660 0.011 285.8)",
+          "oklch(0.780 0.011 285.8)",
+          "oklch(0.880 0.010 285.8)",
+          "oklch(0.960 0.010 285.8)"
+        ]
+      },
+      "mute": {
+        "role": "neutral",
+        "displayName": "Mute Grey",
+        "canonical": "oklch(0.714 0.019 261.3)",
+        "tonalRamp": [
+          "oklch(0.180 0.015 261.3)",
+          "oklch(0.300 0.016 261.3)",
+          "oklch(0.420 0.017 261.3)",
+          "oklch(0.540 0.019 261.3)",
+          "oklch(0.660 0.019 261.3)",
+          "oklch(0.780 0.017 261.3)",
+          "oklch(0.880 0.016 261.3)",
+          "oklch(0.960 0.015 261.3)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "oklch(0.994 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(0.180 0.000 89.9)",
+          "oklch(0.300 0.000 89.9)",
+          "oklch(0.420 0.000 89.9)",
+          "oklch(0.540 0.000 89.9)",
+          "oklch(0.660 0.000 89.9)",
+          "oklch(0.780 0.000 89.9)",
+          "oklch(0.880 0.000 89.9)",
+          "oklch(0.960 0.000 89.9)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface White",
+        "canonical": "oklch(1.000 0.000 89.9)",
+        "tonalRamp": [
+          "oklch(0.180 0.000 89.9)",
+          "oklch(0.300 0.000 89.9)",
+          "oklch(0.420 0.000 89.9)",
+          "oklch(0.540 0.000 89.9)",
+          "oklch(0.660 0.000 89.9)",
+          "oklch(0.780 0.000 89.9)",
+          "oklch(0.880 0.000 89.9)",
+          "oklch(0.960 0.000 89.9)"
+        ]
+      },
+      "surface-2": {
+        "role": "neutral",
+        "displayName": "Inset Surface",
+        "canonical": "oklch(0.967 0.004 271.4)",
+        "tonalRamp": [
+          "oklch(0.180 0.003 271.4)",
+          "oklch(0.300 0.003 271.4)",
+          "oklch(0.420 0.004 271.4)",
+          "oklch(0.540 0.004 271.4)",
+          "oklch(0.660 0.004 271.4)",
+          "oklch(0.780 0.004 271.4)",
+          "oklch(0.880 0.003 271.4)",
+          "oklch(0.960 0.003 271.4)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(0.898 0.006 275.0)",
+        "tonalRamp": [
+          "oklch(0.180 0.004 275.0)",
+          "oklch(0.300 0.005 275.0)",
+          "oklch(0.420 0.005 275.0)",
+          "oklch(0.540 0.005 275.0)",
+          "oklch(0.660 0.005 275.0)",
+          "oklch(0.780 0.005 275.0)",
+          "oklch(0.880 0.005 275.0)",
+          "oklch(0.960 0.004 275.0)"
+        ]
+      },
+      "blue": {
+        "role": "primary",
+        "displayName": "Identity Blue",
+        "canonical": "oklch(0.517 0.271 271.8)",
+        "tonalRamp": [
+          "oklch(0.180 0.208 271.8)",
+          "oklch(0.300 0.226 271.8)",
+          "oklch(0.420 0.244 271.8)",
+          "oklch(0.540 0.262 271.8)",
+          "oklch(0.660 0.262 271.8)",
+          "oklch(0.780 0.244 271.8)",
+          "oklch(0.880 0.229 271.8)",
+          "oklch(0.960 0.217 271.8)"
+        ]
+      },
+      "blue-press": {
+        "role": "primary",
+        "displayName": "Identity Blue Press",
+        "canonical": "oklch(0.453 0.255 270.1)",
+        "tonalRamp": [
+          "oklch(0.180 0.196 270.1)",
+          "oklch(0.300 0.213 270.1)",
+          "oklch(0.420 0.230 270.1)",
+          "oklch(0.540 0.247 270.1)",
+          "oklch(0.660 0.247 270.1)",
+          "oklch(0.780 0.230 270.1)",
+          "oklch(0.880 0.216 270.1)",
+          "oklch(0.960 0.205 270.1)"
+        ]
+      },
+      "blue-soft": {
+        "role": "primary",
+        "displayName": "Identity Blue Soft",
+        "canonical": "oklch(0.938 0.031 285.8)",
+        "tonalRamp": [
+          "oklch(0.180 0.024 285.8)",
+          "oklch(0.300 0.026 285.8)",
+          "oklch(0.420 0.028 285.8)",
+          "oklch(0.540 0.030 285.8)",
+          "oklch(0.660 0.030 285.8)",
+          "oklch(0.780 0.028 285.8)",
+          "oklch(0.880 0.026 285.8)",
+          "oklch(0.960 0.025 285.8)"
+        ]
+      },
+      "blue-bright": {
+        "role": "primary",
+        "displayName": "Identity Blue Bright",
+        "canonical": "oklch(0.560 0.244 275.1)",
+        "tonalRamp": [
+          "oklch(0.180 0.188 275.1)",
+          "oklch(0.300 0.204 275.1)",
+          "oklch(0.420 0.220 275.1)",
+          "oklch(0.540 0.236 275.1)",
+          "oklch(0.660 0.236 275.1)",
+          "oklch(0.780 0.220 275.1)",
+          "oklch(0.880 0.207 275.1)",
+          "oklch(0.960 0.196 275.1)"
+        ]
+      },
+      "blue-glow": {
+        "role": "primary",
+        "displayName": "Identity Blue Glow",
+        "canonical": "oklch(0.619 0.209 278.4)",
+        "tonalRamp": [
+          "oklch(0.180 0.160 278.4)",
+          "oklch(0.300 0.174 278.4)",
+          "oklch(0.420 0.188 278.4)",
+          "oklch(0.540 0.202 278.4)",
+          "oklch(0.660 0.202 278.4)",
+          "oklch(0.780 0.188 278.4)",
+          "oklch(0.880 0.176 278.4)",
+          "oklch(0.960 0.167 278.4)"
+        ]
+      },
+      "orange": {
+        "role": "primary",
+        "displayName": "Action Orange",
+        "canonical": "oklch(0.676 0.217 38.8)",
+        "tonalRamp": [
+          "oklch(0.180 0.167 38.8)",
+          "oklch(0.300 0.182 38.8)",
+          "oklch(0.420 0.196 38.8)",
+          "oklch(0.540 0.210 38.8)",
+          "oklch(0.660 0.210 38.8)",
+          "oklch(0.780 0.196 38.8)",
+          "oklch(0.880 0.184 38.8)",
+          "oklch(0.960 0.174 38.8)"
+        ]
+      },
+      "orange-press": {
+        "role": "primary",
+        "displayName": "Action Orange Press",
+        "canonical": "oklch(0.617 0.194 39.8)",
+        "tonalRamp": [
+          "oklch(0.180 0.150 39.8)",
+          "oklch(0.300 0.162 39.8)",
+          "oklch(0.420 0.175 39.8)",
+          "oklch(0.540 0.188 39.8)",
+          "oklch(0.660 0.188 39.8)",
+          "oklch(0.780 0.175 39.8)",
+          "oklch(0.880 0.165 39.8)",
+          "oklch(0.960 0.156 39.8)"
+        ]
+      },
+      "orange-soft": {
+        "role": "primary",
+        "displayName": "Action Orange Soft",
+        "canonical": "oklch(0.937 0.035 49.2)",
+        "tonalRamp": [
+          "oklch(0.180 0.027 49.2)",
+          "oklch(0.300 0.029 49.2)",
+          "oklch(0.420 0.032 49.2)",
+          "oklch(0.540 0.034 49.2)",
+          "oklch(0.660 0.034 49.2)",
+          "oklch(0.780 0.032 49.2)",
+          "oklch(0.880 0.030 49.2)",
+          "oklch(0.960 0.028 49.2)"
+        ]
+      },
+      "yellow-100": {
+        "role": "secondary",
+        "displayName": "Highlighter Yellow",
+        "canonical": "oklch(0.941 0.202 107.0)",
+        "tonalRamp": [
+          "oklch(0.180 0.155 107.0)",
+          "oklch(0.300 0.168 107.0)",
+          "oklch(0.420 0.182 107.0)",
+          "oklch(0.540 0.195 107.0)",
+          "oklch(0.660 0.195 107.0)",
+          "oklch(0.780 0.182 107.0)",
+          "oklch(0.880 0.171 107.0)",
+          "oklch(0.960 0.162 107.0)"
+        ]
+      },
+      "lime-100": {
+        "role": "secondary",
+        "displayName": "Highlighter Lime",
+        "canonical": "oklch(0.937 0.215 121.9)",
+        "tonalRamp": [
+          "oklch(0.180 0.165 121.9)",
+          "oklch(0.300 0.179 121.9)",
+          "oklch(0.420 0.193 121.9)",
+          "oklch(0.540 0.208 121.9)",
+          "oklch(0.660 0.208 121.9)",
+          "oklch(0.780 0.193 121.9)",
+          "oklch(0.880 0.182 121.9)",
+          "oklch(0.960 0.172 121.9)"
+        ]
+      },
+      "green-100": {
+        "role": "secondary",
+        "displayName": "Highlighter Green",
+        "canonical": "oklch(0.906 0.233 133.0)",
+        "tonalRamp": [
+          "oklch(0.180 0.179 133.0)",
+          "oklch(0.300 0.195 133.0)",
+          "oklch(0.420 0.210 133.0)",
+          "oklch(0.540 0.226 133.0)",
+          "oklch(0.660 0.226 133.0)",
+          "oklch(0.780 0.210 133.0)",
+          "oklch(0.880 0.197 133.0)",
+          "oklch(0.960 0.187 133.0)"
+        ]
+      },
+      "lavender-100": {
+        "role": "secondary",
+        "displayName": "Highlighter Lavender",
+        "canonical": "oklch(0.951 0.019 276.3)",
+        "tonalRamp": [
+          "oklch(0.180 0.015 276.3)",
+          "oklch(0.300 0.016 276.3)",
+          "oklch(0.420 0.017 276.3)",
+          "oklch(0.540 0.018 276.3)",
+          "oklch(0.660 0.018 276.3)",
+          "oklch(0.780 0.017 276.3)",
+          "oklch(0.880 0.016 276.3)",
+          "oklch(0.960 0.015 276.3)"
+        ]
+      },
+      "spring-100": {
+        "role": "secondary",
+        "displayName": "Highlighter Spring",
+        "canonical": "oklch(0.886 0.200 155.7)",
+        "tonalRamp": [
+          "oklch(0.180 0.154 155.7)",
+          "oklch(0.300 0.167 155.7)",
+          "oklch(0.420 0.180 155.7)",
+          "oklch(0.540 0.193 155.7)",
+          "oklch(0.660 0.193 155.7)",
+          "oklch(0.780 0.180 155.7)",
+          "oklch(0.880 0.169 155.7)",
+          "oklch(0.960 0.160 155.7)"
+        ]
+      },
+      "tag-shadow-yellow": {
+        "role": "secondary",
+        "displayName": "Tag Shadow Yellow",
+        "canonical": "oklch(0.794 0.170 107.1)",
+        "tonalRamp": [
+          "oklch(0.180 0.131 107.1)",
+          "oklch(0.300 0.142 107.1)",
+          "oklch(0.420 0.153 107.1)",
+          "oklch(0.540 0.165 107.1)",
+          "oklch(0.660 0.165 107.1)",
+          "oklch(0.780 0.153 107.1)",
+          "oklch(0.880 0.144 107.1)",
+          "oklch(0.960 0.137 107.1)"
+        ]
+      },
+      "tag-shadow-lime": {
+        "role": "secondary",
+        "displayName": "Tag Shadow Lime",
+        "canonical": "oklch(0.790 0.185 122.5)",
+        "tonalRamp": [
+          "oklch(0.180 0.142 122.5)",
+          "oklch(0.300 0.155 122.5)",
+          "oklch(0.420 0.167 122.5)",
+          "oklch(0.540 0.179 122.5)",
+          "oklch(0.660 0.179 122.5)",
+          "oklch(0.780 0.167 122.5)",
+          "oklch(0.880 0.157 122.5)",
+          "oklch(0.960 0.149 122.5)"
+        ]
+      },
+      "tag-shadow-green": {
+        "role": "secondary",
+        "displayName": "Tag Shadow Green",
+        "canonical": "oklch(0.753 0.206 133.7)",
+        "tonalRamp": [
+          "oklch(0.180 0.159 133.7)",
+          "oklch(0.300 0.172 133.7)",
+          "oklch(0.420 0.186 133.7)",
+          "oklch(0.540 0.199 133.7)",
+          "oklch(0.660 0.199 133.7)",
+          "oklch(0.780 0.186 133.7)",
+          "oklch(0.880 0.174 133.7)",
+          "oklch(0.960 0.165 133.7)"
+        ]
+      },
+      "tag-shadow-white": {
+        "role": "secondary",
+        "displayName": "Tag Shadow White",
+        "canonical": "oklch(0.871 0.024 272.8)",
+        "tonalRamp": [
+          "oklch(0.180 0.018 272.8)",
+          "oklch(0.300 0.020 272.8)",
+          "oklch(0.420 0.022 272.8)",
+          "oklch(0.540 0.023 272.8)",
+          "oklch(0.660 0.023 272.8)",
+          "oklch(0.780 0.022 272.8)",
+          "oklch(0.880 0.020 272.8)",
+          "oklch(0.960 0.019 272.8)"
+        ]
+      },
+      "success": {
+        "role": "utility",
+        "displayName": "Success",
+        "canonical": "oklch(0.627 0.170 149.2)",
+        "tonalRamp": [
+          "oklch(0.180 0.131 149.2)",
+          "oklch(0.300 0.142 149.2)",
+          "oklch(0.420 0.153 149.2)",
+          "oklch(0.540 0.164 149.2)",
+          "oklch(0.660 0.164 149.2)",
+          "oklch(0.780 0.153 149.2)",
+          "oklch(0.880 0.144 149.2)",
+          "oklch(0.960 0.136 149.2)"
+        ]
+      },
+      "warning": {
+        "role": "utility",
+        "displayName": "Warning",
+        "canonical": "oklch(0.769 0.165 70.1)",
+        "tonalRamp": [
+          "oklch(0.180 0.127 70.1)",
+          "oklch(0.300 0.137 70.1)",
+          "oklch(0.420 0.148 70.1)",
+          "oklch(0.540 0.159 70.1)",
+          "oklch(0.660 0.159 70.1)",
+          "oklch(0.780 0.148 70.1)",
+          "oklch(0.880 0.139 70.1)",
+          "oklch(0.960 0.132 70.1)"
+        ]
+      },
+      "error": {
+        "role": "utility",
+        "displayName": "Error",
+        "canonical": "oklch(0.577 0.215 27.3)",
+        "tonalRamp": [
+          "oklch(0.180 0.165 27.3)",
+          "oklch(0.300 0.180 27.3)",
+          "oklch(0.420 0.194 27.3)",
+          "oklch(0.540 0.208 27.3)",
+          "oklch(0.660 0.208 27.3)",
+          "oklch(0.780 0.194 27.3)",
+          "oklch(0.880 0.182 27.3)",
+          "oklch(0.960 0.173 27.3)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero H1 only. Black (900), tight tracking, text-balance splits needed lines."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section H2. Black (900), clamped large."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card and item H3. Black (900), ~1.5rem."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraphs, 400 weight, line-length 65-75ch. 500/700 for inline emphasis."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons, pills, names, UI. 700-800, sentence case."
+      },
+      "caption": {
+        "displayName": "Spec Caption",
+        "purpose": "JetBrains Mono, dates/stat captions. The ONLY uppercase-tracked (0.15em) treatment; never a kicker over a title."
+      }
+    },
+    "shadows": [
+      {
+        "name": "sm",
+        "value": "0 1px 2px rgb(0 0 0 / 0.05)",
+        "purpose": "Resting lift under the primary CTA and small chips. Barely there."
+      },
+      {
+        "name": "md",
+        "value": "0 4px 12px rgb(25 25 25 / 0.06)",
+        "purpose": "Hover state on cards, dropdowns, popovers."
+      },
+      {
+        "name": "lg",
+        "value": "0 12px 32px rgb(25 25 25 / 0.08)",
+        "purpose": "Truly floating set-pieces and modals."
+      },
+      {
+        "name": "tag-hard",
+        "value": "0 4px 0 0 var(--tag-shadow), 0 6px 12px rgb(0 0 0 / 0.15)",
+        "purpose": "HighlightTag signature: a hard offset in a darker tone of the fill, never black. A graphic device, not elevation."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-pm",
+        "value": "cubic-bezier(0.2, 0, 0, 1)",
+        "purpose": "The app-wide standard ease-out. No bounce, no elastic."
+      },
+      {
+        "name": "duration-color",
+        "value": "150ms",
+        "purpose": "Default color-transition duration on buttons, links, hovers."
+      },
+      {
+        "name": "reveal",
+        "value": "700ms cubic-bezier(0.2, 0, 0, 1)",
+        "purpose": "Scroll-in reveal: fade + directional slide, optional blur. Staggered ~90ms between siblings."
+      },
+      {
+        "name": "count-up",
+        "value": "1400ms ease-out-cubic",
+        "purpose": "Stats animate 0 to value on scroll into view; tabular-nums."
+      },
+      {
+        "name": "rise",
+        "value": "700ms cubic-bezier(0.2, 0, 0, 1)",
+        "purpose": "Mount-time hero entrance (.pm-rise), delay-staggered."
+      },
+      {
+        "name": "marquee",
+        "value": "40s linear infinite",
+        "purpose": "Seamless revolving strip; pauses on hover, edge-faded."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "All of the above are neutralised: content forced visible, numbers jump to final. Content is never stranded."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button (the CTA)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Orange = action. At most one per screen, for the conversion. Blue focus ring = identity.",
+      "html": "<button class=\"ds-btn-primary\">Join on #Slack</button>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#ff5500;color:#fff;font-family:Noto Sans, system-ui, sans-serif;font-weight:700;font-size:.875rem;line-height:1;padding:10px 24px;border:none;border-radius:12px;box-shadow:0 1px 2px rgb(0 0 0/.05);cursor:pointer;transition:background-color .15s cubic-bezier(0.2,0,0,1);}.ds-btn-primary:hover{background:#e04d00;}.ds-btn-primary:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(63,63,255,.2);}"
+    },
+    {
+      "name": "Outline Button (workhorse)",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "The default secondary action: bordered, surface fill, ink text.",
+      "html": "<button class=\"ds-btn-outline\">Explore initiatives</button>",
+      "css": ".ds-btn-outline{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#fff;color:#191919;border:1px solid #dcdde1;border-radius:12px;font-family:Noto Sans, system-ui, sans-serif;font-weight:700;font-size:.875rem;line-height:1;padding:10px 24px;cursor:pointer;transition:background-color .15s cubic-bezier(0.2,0,0,1);}.ds-btn-outline:hover{background:#f3f4f7;}.ds-btn-outline:focus-visible{outline:none;border-color:#3f3fff;box-shadow:0 0 0 3px rgba(63,63,255,.2);}"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Text-only ink label; hover feedback is a subtle surface tint, never colored text.",
+      "html": "<button class=\"ds-btn-ghost\">Read our story</button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;gap:6px;background:transparent;color:#191919;border:none;border-radius:12px;font-family:Noto Sans, system-ui, sans-serif;font-weight:700;font-size:.875rem;line-height:1;padding:10px 16px;cursor:pointer;transition:background-color .15s cubic-bezier(0.2,0,0,1);}.ds-btn-ghost:hover{background:#f3f4f7;}"
+    },
+    {
+      "name": "Highlight Tag (signature)",
+      "kind": "custom",
+      "refersTo": "highlight-tag",
+      "description": "The signature move: a tilted highlighter-marker label with a hard bottom shadow in a darker tone of its own fill. Always skewed (no flat option), ink text, sentence case, only above a left-aligned title.",
+      "html": "<span class=\"ds-highlight-tag\">Recent workshops</span>",
+      "css": ".ds-highlight-tag{display:inline-block;width:fit-content;white-space:nowrap;background:#fcf300;color:#191919;font-family:Noto Sans, system-ui, sans-serif;font-weight:800;letter-spacing:-0.01em;font-size:1.125rem;line-height:1.15;padding:10px 22px;border-radius:14px;transform:rotate(-4deg);box-shadow:0 4px 0 0 #c9c200,0 6px 12px rgb(0 0 0/.15);}"
+    },
+    {
+      "name": "Content Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Surface panel defined by a 1px hairline at rest, not a shadow. Generous 28px corners; restrained lift on hover. Nested cards forbidden.",
+      "html": "<div class=\"ds-card\"><h3 class=\"ds-card-title\">Hands-on sessions, led by people who ship.</h3><p class=\"ds-card-body\">Real practitioners teaching the approaches they use every day.</p></div>",
+      "css": ".ds-card{background:#fff;color:#191919;border:1px solid #dcdde1;border-radius:28px;padding:28px;transition:transform .3s cubic-bezier(0.2,0,0,1),box-shadow .3s cubic-bezier(0.2,0,0,1),border-color .3s;}.ds-card:hover{transform:translateY(-6px);border-color:rgba(25,25,25,.2);box-shadow:0 12px 32px rgb(25 25 25/.08);}.ds-card-title{margin:0;font-family:Noto Sans Display, Noto Sans, system-ui, sans-serif;font-weight:900;font-size:1.5rem;line-height:1.15;letter-spacing:-0.01em;}.ds-card-body{margin:.75rem 0 0;font-family:Noto Sans, system-ui, sans-serif;font-weight:400;font-size:1rem;line-height:1.6;color:#3f3f46;}"
+    },
+    {
+      "name": "Meta Pill / Chip",
+      "kind": "chip",
+      "refersTo": "meta-pill",
+      "description": "Small inset chip for dates, formats, counts. Ink-2 label on surface-2, hairline border, full radius. Categorical chips may take a highlighter-cast fill.",
+      "html": "<span class=\"ds-meta-pill\">Jun 2026</span>",
+      "css": ".ds-meta-pill{display:inline-block;background:#f3f4f7;color:#3f3f46;border:1px solid #dcdde1;border-radius:9999px;font-family:Noto Sans, system-ui, sans-serif;font-weight:700;font-size:.75rem;line-height:1.2;padding:4px 12px;}"
+    },
+    {
+      "name": "Input Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Bordered surface field, 12px-family radius. Focus shifts the border to identity blue and adds a 3px blue ring.",
+      "html": "<input class=\"ds-input\" type=\"email\" placeholder=\"you@example.com\" />",
+      "css": ".ds-input{display:block;width:100%;background:#fff;color:#191919;border:1px solid #dcdde1;border-radius:12px;font-family:Noto Sans, system-ui, sans-serif;font-size:.875rem;line-height:1.4;padding:8px 12px;transition:border-color .15s,box-shadow .15s;}.ds-input::placeholder{color:#9ca3af;}.ds-input:focus-visible{outline:none;border-color:#3f3fff;box-shadow:0 0 0 3px rgba(63,63,255,.2);}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Makers' Zine",
+    "overview": "Product Makers is a well-typeset zine made by makers, rebuilt as a website. The register is brand: this is a community marketing site, so the design is the product. It runs on three physical-object words: hand-lettered, loud, document-like. Confident black display type on warm off-white paper, two loud brand colors used as paint (never decoration), and the signature move: tilted highlighter-marker labels that look drawn on by hand. It must feel made by a person, not generated. Structure is done with 1px ink-tinted rules, not shadows, so the page reads like a well-set document. Loudness is rationed: the blue drenched hero and the single orange CTA are the set-pieces; everything between them is quiet ink-on-paper so the loud moments land. The voice matches the look: welcoming, second-person, Slack-fluent, quietly confident, sentence case, with 1-to-3-word imperative buttons and free as the headline.",
+    "keyCharacteristics": [
+      "Instantly recognizable: tilted highlighter labels with a hard bottom shadow, black Noto Sans Display on warm paper, blue #3f3fff identity + orange #ff5500 action, blue text-selection, borders instead of shadows.",
+      "Committed on brand set-pieces (blue drenched hero, orange CTA), Restrained on content (ink on paper, hairline rules).",
+      "One conversion per screen; Grow / Build / Connect is the routing spine.",
+      "Real faces and names over abstract graphics; the community is the product.",
+      "No dark mode (deliberately undefined), no script/cursive face, no gradients on chrome."
+    ],
+    "rules": [
+      {
+        "name": "The Two-Paint Rule",
+        "body": "Blue is identity, orange is action, and they never swap. Blue never fills a CTA; orange never fills anything but the one conversion button per screen.",
+        "section": "colors"
+      },
+      {
+        "name": "The No-Colored-Text Rule",
+        "body": "Text is ink (or its opacity steps) on light, white on dark. Blue, orange and the highlighter cast are paint (fills for buttons, tags, canvases, focus rings, the logo), never applied to text. Emphasis is weight and size; a link is weight + underline or an arrow, never a hue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Rationed-Loud Rule",
+        "body": "Saturated color carries the hero and the CTA and stops there. On any content screen the loud colors sit near 10% of the surface; their rarity is what makes them read as loud.",
+        "section": "colors"
+      },
+      {
+        "name": "The Sentence-Case Rule",
+        "body": "Everything is sentence case: headings, buttons, labels, nav. No ALL-CAPS marketing shouts. The one exception is the mono spec caption.",
+        "section": "typography"
+      },
+      {
+        "name": "The Weight-Not-Color Rule",
+        "body": "Hierarchy comes from scale + weight (>=1.25 step ratio) and nothing else. Never lighten, tint, or color a word to rank it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Titles-Use-Available-Width Rule",
+        "body": "A heading breaks to a second line only when it genuinely does not fit. Display titles get a wide cap (max-w-5xl). Left-aligned section leads use max-w-4xl so descriptions fill the width instead of cramming; centered leads may stay max-w-2xl.",
+        "section": "typography"
+      },
+      {
+        "name": "The Borders-Not-Shadows Rule",
+        "body": "Structure is drawn with 1px rules and tonal steps. If a layout needs a shadow to feel organized, the border and spacing are wrong first. Shadows appear only as a response to state (hover, float, focus), never at rest on a content card.",
+        "section": "elevation"
+      },
+      {
+        "name": "The No-Glass Rule",
+        "body": "No glassmorphism, no backdrop-blur cards, no glow, no neon. Gradients live only inside sanctioned hero/canvas set-pieces, never on chrome, buttons, or content cards.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do paint with the two brand colors in role: blue #3f3fff for identity (logo, focus rings, hero field), orange #ff5500 for the single action per screen.",
+      "Do open a section with its title, or with a left-aligned skewed HighlightTag, and nothing above it.",
+      "Do keep every HighlightTag clearly tilted (3 degrees minimum) with a hard bottom shadow in a darker tone of its own fill.",
+      "Do build structure with 1px #dcdde1 rules and tonal steps (paper to surface to surface-2); reach for a shadow only on hover/float/focus.",
+      "Do set everything in Noto Sans / Noto Sans Display, sentence case, hierarchy from weight + size.",
+      "Do write welcoming, second-person, Slack-fluent copy; buttons are 1 to 3 word imperatives; make free the headline.",
+      "Do show real faces, names and event photos; when a photo is missing use an initials avatar, never a fabricated person.",
+      "Do let titles use the available width and only wrap when they truly must; give leads max-w-4xl when left-aligned.",
+      "Do keep motion reduced-motion safe, eased-out, and off layout properties."
+    ],
+    "donts": [
+      "Don't apply blue, orange, or any highlighter hue to text for emphasis or as a link color. No colored text, ever.",
+      "Don't put an eyebrow / kicker over a title (no small tracked uppercase label sitting above a heading).",
+      "Don't use a script or cursive font, or any face mimicking the Makers wordmark; the wordmark is an SVG image, never type.",
+      "Don't fill a CTA with blue or use orange for anything but the one conversion button per screen.",
+      "Don't stack a Highlighter marker-sweep and a HighlightTag on the same title, and don't center a tag.",
+      "Don't use em dashes in copy; use commas, colons, periods, or parentheses. Also not --.",
+      "Don't add decorative icons, step numbers, or random separators; only the Grow / Build / Connect set is sanctioned.",
+      "Don't ship the SaaS-landing template: cream background, Inter, gradient-text hero, the big-number stat-row template, or identical icon-heading-text card grids.",
+      "Don't use glassmorphism, glow, neon-on-black, side-stripe (border-left) accents, gradients on chrome, or nested cards.",
+      "Don't introduce dark mode or a purple/gradient AI-tool skin; if it could read 'AI made that,' rework it."
+    ]
+  }
+}
