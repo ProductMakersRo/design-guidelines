@@ -493,6 +493,11 @@
         "name": "reduced-motion",
         "value": "prefers-reduced-motion: reduce",
         "purpose": "All of the above are neutralised: content forced visible, numbers jump to final. Content is never stranded."
+      },
+      {
+        "name": "glow-field",
+        "value": "34rem blurred circle, bg-pm-blue-glow/25, cursor-follow with ~0.07 lerp easing",
+        "purpose": "Ambient ombre glow drifting after the cursor inside a Washed Voices Band. Transform-only. Rests centred on touch/(hover:none); off under prefers-reduced-motion."
       }
     ],
     "breakpoints": [
@@ -626,6 +631,11 @@
       {
         "name": "The Watermark Rule",
         "body": "The Makers script appears in backgrounds at ONE treatment only, implemented once in pm/script-watermark.tsx (never hand-roll a second): the BLACK script zoomed to 180% of the band width and centered, so the letterforms bleed off every edge and the word never reads in full. Opacity is a whisper that darkens the ground tone-on-tone: 8% on blue set-pieces (reads as deeper blue), 5% on light grounds (reads as soft grey). No blur, no rotation beyond the script natural slant, always aria-hidden and behind every content layer. The ground is always the brand wash: blue set-pieces run the 135deg blue-bright to blue to blue-press gradient (plus at most a soft glow orb); light grounds stay paper with a gentle blue-soft/lavender wash.",
+        "section": "components"
+      },
+      {
+        "name": "The Washed Voices Band",
+        "body": "Every testimonial/quote carousel (a Marquee of quote cards) sits on a vertical wash, not a flat paper/surface-2 band: rises out of whatever surface precedes it, peaks at blue-soft behind the cards, and settles into whatever surface follows (bg-linear-to-b from-{prev} via-pm-blue-soft/70 to-{next}); a hero directly above hands off from full blue instead (from-pm-blue-soft). Layer in order: the light-tone ScriptWatermark, GlowField, then the content at relative. White quote cards pop off the wash; the Marquee edge-fade is a transparent mask so it never smears a wrong colour. Turns a hero-to-content or content-to-content seam from an abrupt cut into a held note.",
         "section": "components"
       }
     ],
