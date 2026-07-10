@@ -622,6 +622,11 @@
         "name": "The No-Glass Rule",
         "body": "No glassmorphism, no backdrop-blur cards, no glow, no neon. Gradients live only inside sanctioned hero/canvas set-pieces, never on chrome, buttons, or content cards.",
         "section": "elevation"
+      },
+      {
+        "name": "The Watermark Rule",
+        "body": "The Makers script appears in backgrounds at ONE treatment only, implemented once in pm/script-watermark.tsx (never hand-roll a second): the BLACK script zoomed to 180% of the band width and centered, so the letterforms bleed off every edge and the word never reads in full. Opacity is a whisper that darkens the ground tone-on-tone: 8% on blue set-pieces (reads as deeper blue), 5% on light grounds (reads as soft grey). No blur, no rotation beyond the script natural slant, always aria-hidden and behind every content layer. The ground is always the brand wash: blue set-pieces run the 135deg blue-bright to blue to blue-press gradient (plus at most a soft glow orb); light grounds stay paper with a gentle blue-soft/lavender wash.",
+        "section": "components"
       }
     ],
     "dos": [
