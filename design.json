@@ -37,16 +37,16 @@
       "mute": {
         "role": "neutral",
         "displayName": "Mute Grey",
-        "canonical": "oklch(0.714 0.019 261.3)",
+        "canonical": "oklch(0.530 0.024 264.4)",
         "tonalRamp": [
-          "oklch(0.180 0.015 261.3)",
-          "oklch(0.300 0.016 261.3)",
-          "oklch(0.420 0.017 261.3)",
-          "oklch(0.540 0.019 261.3)",
-          "oklch(0.660 0.019 261.3)",
-          "oklch(0.780 0.017 261.3)",
-          "oklch(0.880 0.016 261.3)",
-          "oklch(0.960 0.015 261.3)"
+          "oklch(0.180 0.019 264.4)",
+          "oklch(0.300 0.020 264.4)",
+          "oklch(0.420 0.021 264.4)",
+          "oklch(0.540 0.024 264.4)",
+          "oklch(0.660 0.024 264.4)",
+          "oklch(0.780 0.021 264.4)",
+          "oklch(0.880 0.020 264.4)",
+          "oklch(0.960 0.019 264.4)"
         ]
       },
       "paper": {
@@ -202,16 +202,16 @@
       "orange-press": {
         "role": "primary",
         "displayName": "Action Orange Press",
-        "canonical": "oklch(0.617 0.194 39.8)",
+        "canonical": "oklch(0.518 0.160 40.6)",
         "tonalRamp": [
-          "oklch(0.180 0.150 39.8)",
-          "oklch(0.300 0.162 39.8)",
-          "oklch(0.420 0.175 39.8)",
-          "oklch(0.540 0.188 39.8)",
-          "oklch(0.660 0.188 39.8)",
-          "oklch(0.780 0.175 39.8)",
-          "oklch(0.880 0.165 39.8)",
-          "oklch(0.960 0.156 39.8)"
+          "oklch(0.180 0.127 40.6)",
+          "oklch(0.300 0.135 40.6)",
+          "oklch(0.420 0.143 40.6)",
+          "oklch(0.540 0.160 40.6)",
+          "oklch(0.660 0.160 40.6)",
+          "oklch(0.780 0.143 40.6)",
+          "oklch(0.880 0.135 40.6)",
+          "oklch(0.960 0.127 40.6)"
         ]
       },
       "orange-soft": {
@@ -227,6 +227,21 @@
           "oklch(0.780 0.032 49.2)",
           "oklch(0.880 0.030 49.2)",
           "oklch(0.960 0.028 49.2)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary CTA",
+        "canonical": "oklch(0.576 0.181 40.0)",
+        "tonalRamp": [
+          "oklch(0.180 0.143 40.0)",
+          "oklch(0.300 0.152 40.0)",
+          "oklch(0.420 0.161 40.0)",
+          "oklch(0.540 0.181 40.0)",
+          "oklch(0.660 0.181 40.0)",
+          "oklch(0.780 0.161 40.0)",
+          "oklch(0.880 0.152 40.0)",
+          "oklch(0.960 0.143 40.0)"
         ]
       },
       "yellow-100": {
@@ -526,7 +541,7 @@
       "refersTo": "button-primary",
       "description": "Orange = action. At most one per screen, for the conversion. Blue focus ring = identity.",
       "html": "<button class=\"ds-btn-primary\">Join on #Slack</button>",
-      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#ff5500;color:#fff;font-family:Noto Sans, system-ui, sans-serif;font-weight:700;font-size:.875rem;line-height:1;padding:10px 24px;border:none;border-radius:12px;box-shadow:0 1px 2px rgb(0 0 0/.05);cursor:pointer;transition:background-color .15s cubic-bezier(0.2,0,0,1);}.ds-btn-primary:hover{background:#e04d00;}.ds-btn-primary:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(63,63,255,.2);}"
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:#cc4600;color:#fff;font-family:Noto Sans, system-ui, sans-serif;font-weight:700;font-size:.875rem;line-height:1;padding:10px 24px;border:none;border-radius:12px;box-shadow:0 1px 2px rgb(0 0 0/.05);cursor:pointer;transition:background-color .15s cubic-bezier(0.2,0,0,1);}.ds-btn-primary:hover{background:#b03d00;}.ds-btn-primary:focus-visible{outline:none;box-shadow:0 0 0 3px rgba(63,63,255,.2);}"
     },
     {
       "name": "Outline Button (workhorse)",
@@ -574,7 +589,7 @@
       "refersTo": "input",
       "description": "Bordered surface field, 12px-family radius. Focus shifts the border to identity blue and adds a 3px blue ring.",
       "html": "<input class=\"ds-input\" type=\"email\" placeholder=\"you@example.com\" />",
-      "css": ".ds-input{display:block;width:100%;background:#fff;color:#191919;border:1px solid #dcdde1;border-radius:12px;font-family:Noto Sans, system-ui, sans-serif;font-size:.875rem;line-height:1.4;padding:8px 12px;transition:border-color .15s,box-shadow .15s;}.ds-input::placeholder{color:#9ca3af;}.ds-input:focus-visible{outline:none;border-color:#3f3fff;box-shadow:0 0 0 3px rgba(63,63,255,.2);}"
+      "css": ".ds-input{display:block;width:100%;background:#fff;color:#191919;border:1px solid #dcdde1;border-radius:12px;font-family:Noto Sans, system-ui, sans-serif;font-size:.875rem;line-height:1.4;padding:8px 12px;transition:border-color .15s,box-shadow .15s;}.ds-input::placeholder{color:#656c7a;}.ds-input:focus-visible{outline:none;border-color:#3f3fff;box-shadow:0 0 0 3px rgba(63,63,255,.2);}"
     }
   ],
   "narrative": {

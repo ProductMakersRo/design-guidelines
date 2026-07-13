@@ -4,7 +4,7 @@ description: "A well-typeset makers' zine — black display type on warm paper, 
 colors:
   ink: "#191919"
   ink-2: "#3f3f46"
-  mute: "#9ca3af"
+  mute: "#656c7a"
   paper: "#fdfdfd"
   surface: "#ffffff"
   surface-2: "#f3f4f7"
@@ -15,7 +15,8 @@ colors:
   blue-bright: "#5555ff"
   blue-glow: "#6f6fff"
   orange: "#ff5500"
-  orange-press: "#e04d00"
+  primary: "#cc4600" # the CTA color; realized as --primary in globals.css, not a separate --pm-orange-cta var
+  orange-press: "#b03d00"
   orange-soft: "#ffe4d6"
   yellow-100: "#fcf300"
   lime-100: "#d3ff33"
@@ -155,9 +156,7 @@ This system explicitly rejects: **generic SaaS landing pages** (cream + Inter +
 gradient-text hero + big-number stat row + identical icon-heading-text card
 grid); the **editorial-magazine AI lane** (display-serif italic + tiny tracked
 uppercase kickers over every section + ruled columns); **crypto/neon-on-black**;
-and anything that reads "AI made that." It borrows *structure* from references
-(coinlabs.framer.website section flow, englexa-tutoring.framer.website's real-
-portrait hero and accordion lists), never their skin.
+and anything that reads "AI made that."
 
 **Key Characteristics:**
 - **Instantly recognizable by:** tilted highlighter labels with a hard bottom shadow · black Noto Sans Display on warm paper · blue `#3f3fff` identity + orange `#ff5500` action · blue text-selection · borders instead of shadows.
@@ -175,7 +174,7 @@ token is namespaced `pm-*`.
 
 ### Primary
 - **Identity Blue** (`#3f3fff`, `pm-blue`): the brand's identity paint. The logo, every focus ring (`--ring`), the master-hero field, `HighlightTag`-adjacent fills, text selection. Press `#2d2de0`, soft wash `#e8e8ff`, bright gradient-start `#5555ff`, glow blob `#6f6fff`. **Never a CTA fill. Never a text color.**
-- **Action Orange** (`#ff5500`, `pm-orange`): the conversion paint. The primary CTA fill and nothing else. Hover/press `#e04d00`, soft tint `#ffe4d6` for rare backgrounds. At most one orange element per screen.
+- **Action Orange** (`#ff5500`, `pm-orange`): the conversion paint, decorative accents only. The CTA *fill* is the darkened `#cc4600` (`--primary`) — AA contrast (4.7:1) with its white label; same 20° hue. Hover/press `#b03d00`, soft tint `#ffe4d6` for rare backgrounds. At most one orange element per screen.
 
 ### Secondary — the Highlighter Cast
 Five hues, only ever as `HighlightTag` fills and small categorical chips. Each
@@ -186,7 +185,7 @@ ships as 100 (full) / 60 (mid) / 40 (washed) tints; the 100 is the working value
 ### Neutral
 - **Ink** (`#191919`, `pm-ink`): all primary text, dark bands, the darkest surfaces.
 - **Ink-2** (`#3f3f46`): secondary body text, descriptions.
-- **Mute** (`#9ca3af`): captions, meta, disabled, roles under names.
+- **Mute** (`#656c7a`): captions, meta, disabled, roles under names. Darkened from `#9ca3af` for AA contrast (≥4.5:1 on paper, white and surface-2).
 - **Paper** (`#fdfdfd`): the default page background — warm off-white, never pure white for the canvas.
 - **Surface** (`#ffffff`): cards and raised panels sit one step brighter than paper.
 - **Surface-2** (`#f3f4f7`): insets, meta pills, alternating section bands, hover tints.
@@ -252,7 +251,7 @@ resting structure.
 
 ### Buttons
 - **Shape:** 12px corners (`rounded-lg`), 700-weight sentence-case label, 150ms color transitions, no transform on press. Focus ring is always brand blue: `focus-visible` grows a 3px `blue/20` ring plus a blue border.
-- **Primary (the CTA):** solid orange (`#ff5500`) fill, white text, faint `sm` shadow; hover deepens to `#e04d00`. Padding `10px 24px` (default) or `12px 32px` (`lg`). **At most one per screen**, for the conversion.
+- **Primary (the CTA):** solid orange (`#cc4600`, `--primary` — AA contrast with the white label) fill, white text, faint `sm` shadow; hover deepens to `#b03d00`. Padding `10px 24px` (default) or `12px 32px` (`lg`). **At most one per screen**, for the conversion.
 - **Outline (the workhorse):** transparent/surface fill, `line` border, ink text; hover fills with `surface-2`. This carries every secondary action.
 - **Ghost:** text-only ink label, hover shows a subtle `surface-2` tint (never colored text); tighter `10px 16px` padding.
 - **Link:** inline, ink text, emphasis is the underline on hover, never a color.
