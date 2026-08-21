@@ -265,6 +265,7 @@ extrabold, single line, `whitespace-nowrap`.
 - **Tilt:** always clearly skewed — the scale is -6°/-4°/-3° (left) and 3°/4°/6° (right). There is **no 0° / flat option**; default is -4°.
 - **Sizes:** md (14px radius, `text-lg`), lg (18px radius, `text-[28px]`), xl (`rounded-2xl`, `text-4xl`).
 - **Placement:** only above a **left-aligned** title; on a centered header it is omitted entirely (enforced in `marketing/section-header.tsx`).
+- **Clearance:** the tag **grazes the title's cap line, it never covers the letters**. Keep a small positive gap between the tag box and the title (the default in `SectionHeader` is `mt-1`/`mt-1.5`); the tilted corner dipping toward the caps is what makes the pair read attached. If a tag visually lands on a glyph anywhere, the fix is more clearance, not a per-page nudge.
 
 ### Cards / Containers
 - **Corners:** generous — `rounded-3xl` (28px) for content cards, up to `rounded-4xl` (32px) for header-pattern panels; `rounded-lg` (12px) for tight UI. Nested cards are forbidden.
