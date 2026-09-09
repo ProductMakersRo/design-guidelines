@@ -256,6 +256,7 @@ resting structure.
 - **Ghost:** text-only ink label, hover shows a subtle `surface-2` tint (never colored text); tighter `10px 16px` padding.
 - **Link:** inline, ink text, emphasis is the underline on hover, never a color.
 - **Disabled:** `surface-2` fill, `mute` text, no shadow.
+- **Icon-only:** a square button, **44px minimum** (`size-11`) wherever a finger has to hit it — the mobile menu trigger is the reference. When the mark itself must stay smaller than that, keep the 44px box and grow the *hit area* with a transparent `::after` skirt rather than shrinking the button; check the skirt against the gap to the next control so it never reaches its box.
 
 ### Highlight Tag — the signature element
 A tilted marker swipe, not a UI chip. Sentence case, 1 to 3 words, Noto Sans
