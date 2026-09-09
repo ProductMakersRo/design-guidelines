@@ -279,6 +279,14 @@ extrabold, single line, `whitespace-nowrap`.
 Small `surface-2` fill, `pill` radius, ink-2 label, 1px border. Used for dates,
 formats, counts. Categorical chips may take a highlighter-cast fill. Never colored text.
 
+### Link-preview cards (social)
+The image a pasted link unfurls into: 1200x630, and a compressed page hero, not a poster of its own. Brand-blue gradient ground, the canonical **crisp** Makers watermark (never the blurred social-post variant), the white wordmark top-left, then a display-black white title and one supporting line, both aligned to one left edge and pinned to the bottom.
+- **Type runs bigger than the hero's**, because the card is read at a quarter of its size in a feed: title ~96px against the hero h1's 72px, supporting line ~32px.
+- **The title is an invitation naming the programme** — "Join the Alternative School of Product" — and the line under it says what the programme *is*.
+- **Copy is evergreen: no dates, editions, counts or times.** A card outlives the event it was made for and lives on in feeds and chat histories; timely facts belong in the page's search description, which gets re-crawled. No eyebrow over the title, same as the heroes.
+- **Each page gets its own light.** One shared gradient and one shared glow would tile a feed with identical rectangles, so the ground stays fixed and the *lighting* varies per page: position, size, blur and fall-off of soft blue orbs, always from the existing blue tokens. Never a new colour, never a photo behind the type.
+- **JPEG, not WebP** — the one exception to the WebP rule, because preview crawlers (LinkedIn, Meta) still cannot be trusted with it.
+
 ### Inputs / Fields
 Surface fill, 1px `line` stroke, 12px-family radius. Focus shifts the border to
 blue and adds the 3px `blue/20` ring (identity). Sentence-case labels and
