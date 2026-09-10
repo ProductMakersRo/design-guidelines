@@ -287,6 +287,16 @@ The image a pasted link unfurls into: 1200x630, and a compressed page hero, not 
 - **Each page gets its own light.** One shared gradient and one shared glow would tile a feed with identical rectangles, so the ground stays fixed and the *lighting* varies per page: position, size, blur and fall-off of soft blue orbs, always from the existing blue tokens. Never a new colour, never a photo behind the type.
 - **JPEG, not WebP** — the one exception to the WebP rule, because preview crawlers (LinkedIn, Meta) still cannot be trusted with it.
 
+### The symbol mark (app icon)
+The one place the brand compresses to a single tile: browser tab, bookmark, phone home screen. A **"PM" ligature** — the brush *Makers* M ridden over the geometric *PRODUCT* P, white on **flat** `pm-blue`. It does not replace the logo; the logo is still the two-tier lockup, and the symbol only appears where that lockup would be illegible.
+- **Both letters are real curves, never type.** The M is the first subpath of `makers-script-black.svg`; the P is traced from `logo.png`, because the caps exist only as a raster. Setting either in a typeface breaks the no-script-face rule.
+- **The knockout is structural, not decorative.** The M carries a blue gap (2% of the tile) wherever it crosses the P. Without it the two fuse into one white mass and the P loses its bowl — the mark reads "FM".
+- **The M is 1.3x the P**, because a brush script reads optically smaller than caps at the same height, and it drops below the P's baseline so the pair reads as one mark rather than two letters touching.
+- **Flat blue, never the gradient.** At tab size a gradient turns to mud. The blue *is* the recognition at 16px; the letters are the reward at 32px and up.
+- **Fit the pair, not each letter**: the lockup is composed first, then its combined box is scaled to 80% of the tile and nudged down 2% — the M's long thin descender sets the box while carrying almost no ink, so a box-centred mark sits visually high.
+- **Rounded tile everywhere except the Apple touch icon**, which is full-bleed square: iOS applies its own mask, and a pre-rounded tile double-masks.
+- Tune small sizes at small sizes. A hairline that looks elegant at 200px is gone at 32px.
+
 ### Inputs / Fields
 Surface fill, 1px `line` stroke, 12px-family radius. Focus shifts the border to
 blue and adds the 3px `blue/20` ring (identity). Sentence-case labels and
