@@ -610,7 +610,7 @@
       },
       {
         "name": "The No-Colored-Text Rule",
-        "body": "Text is ink (or its opacity steps) on light, white on dark. Blue, orange and the highlighter cast are paint (fills for buttons, tags, canvases, focus rings, the logo), never applied to text. Emphasis is weight and size; a link is weight + underline or an arrow, never a hue.",
+        "body": "Text is ink (or its opacity steps) on light, white on dark. Blue, orange and the highlighter cast are paint (fills for buttons, tags, canvases, focus rings, the logo), never applied to text. Emphasis is weight and size; a link is weight + underline or an arrow, never a hue. One exception, the instrument readout: a number that IS the reading of an instrument (the countdown on /timer.html, and nothing else so far) may take pm-orange, because there the colour is the state of the thing being read rather than emphasis added to prose. It must sit on a white plinth, never on the brand field (#ff5500 on pm-blue is 1.95:1; on white it is 3.19:1), and be display-size.",
         "section": "colors"
       },
       {
@@ -666,7 +666,7 @@
       "Do keep motion reduced-motion safe, eased-out, and off layout properties."
     ],
     "donts": [
-      "Don't apply blue, orange, or any highlighter hue to text for emphasis or as a link color. No colored text, ever.",
+      "Don't apply blue, orange, or any highlighter hue to text for emphasis or as a link color. The one exception is an instrument readout on a white plinth (see The No-Colored-Text Rule); everywhere else, no colored text.",
       "Don't put an eyebrow / kicker over a title (no small tracked uppercase label sitting above a heading).",
       "Don't use a script or cursive font, or any face mimicking the Makers wordmark; the wordmark is an SVG image, never type.",
       "Don't fill a CTA with blue or use orange for anything but the one conversion button per screen.",
