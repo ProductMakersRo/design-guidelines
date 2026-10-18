@@ -610,7 +610,7 @@
       },
       {
         "name": "The No-Colored-Text Rule",
-        "body": "Text is ink (or its opacity steps) on light, white on dark. Blue, orange and the highlighter cast are paint (fills for buttons, tags, canvases, focus rings, the logo), never applied to text. Emphasis is weight and size; a link is weight + underline or an arrow, never a hue. One exception, the instrument readout: a number that IS the reading of an instrument (the countdown on /timer.html, and nothing else so far) may take pm-orange, because there the colour is the state of the thing being read rather than emphasis added to prose. It must sit on a white plinth, never on the brand field (#ff5500 on pm-blue is 1.95:1; on white it is 3.19:1), and be display-size.",
+        "body": "Text is ink on light, white on dark, with pm-ink-2 and pm-mute as the quieter steps \u2014 a dimmed or inactive state takes pm-mute, never a transparency of ink, which reads as hierarchy while failing contrast (three instances found at 1.7:1 and 3.1:1, 2026-10-18). Blue, orange and the highlighter cast are paint (fills for buttons, tags, canvases, focus rings, the logo), never applied to text. Emphasis is weight and size; a link is weight + underline or an arrow, never a hue. One exception, the instrument readout: a number that IS the reading of an instrument (the countdown on /timer.html, and nothing else so far) may take pm-orange, because there the colour is the state of the thing being read rather than emphasis added to prose. It must sit on a white plinth, never on the brand field (#ff5500 on pm-blue is 1.95:1; on white it is 3.19:1), and be display-size.",
         "section": "colors"
       },
       {

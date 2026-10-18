@@ -185,7 +185,7 @@ ships as 100 (full) / 60 (mid) / 40 (washed) tints; the 100 is the working value
 ### Neutral
 - **Ink** (`#191919`, `pm-ink`): all primary text, dark bands, the darkest surfaces.
 - **Ink-2** (`#3f3f46`): secondary body text, descriptions.
-- **Mute** (`#656c7a`): captions, meta, disabled, roles under names. Darkened from `#9ca3af` for AA contrast (≥4.5:1 on paper, white and surface-2).
+- **Mute** (`#656c7a`): captions, meta, disabled, roles under names. Darkened from `#9ca3af` for AA contrast (≥4.5:1 on paper, white and surface-2). **A quieter state is this token, never a transparency of ink.** An audit on 2026-10-18 found three places that dimmed text by fading it instead — `text-pm-ink/30` and `text-pm-ink/25` on the Producthon checklist's not-yet-done rows, measured at **1.7:1**, and a city count at 55% opacity on /connect. All three read as deliberate hierarchy and were unreadable; all three are `pm-mute` now. Fading ink is for decoration that carries no words.
 - **Paper** (`#fdfdfd`): the default page background — warm off-white, never pure white for the canvas.
 - **Surface** (`#ffffff`): cards and raised panels sit one step brighter than paper.
 - **Surface-2** (`#f3f4f7`): insets, meta pills, alternating section bands, hover tints.
