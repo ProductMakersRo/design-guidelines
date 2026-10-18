@@ -492,7 +492,7 @@
       {
         "name": "count-up",
         "value": "1400ms ease-out-cubic",
-        "purpose": "Stats animate 0 to value on scroll into view; tabular-nums."
+        "purpose": "Stats animate 0 to value on scroll into view; tabular-nums. The final figure must also sit in the HTML as visually hidden text: a number that only exists after hydration reads as 0 to crawlers, link previews and screen readers."
       },
       {
         "name": "rise",
