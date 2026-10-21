@@ -675,6 +675,7 @@
       "Don't add decorative icons, step numbers, or random separators; only the Grow / Build / Connect set is sanctioned.",
       "Don't ship the SaaS-landing template: cream background, Inter, gradient-text hero, the big-number stat-row template, or identical icon-heading-text card grids.",
       "Don't use glassmorphism, glow, neon-on-black, side-stripe (border-left) accents, gradients on chrome, or nested cards.",
+      "Don't fan, stack or overlap several pieces of real content unless the pieces are visibly different from each other; three identical thumbnails spread like a hand of cards read as a failed image load, not a preview. Source distinct art or drop the device.",
       "Don't introduce dark mode or a purple/gradient AI-tool skin; if it could read 'AI made that,' rework it."
     ]
   }
